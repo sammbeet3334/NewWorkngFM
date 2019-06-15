@@ -18,7 +18,14 @@ import org.testng.annotations.AfterSuite;
 
 public class SC_Login_TC001 extends TestBase {
   @Test
-  public void f() {
+  public void firstTest() {
+	  System.out.println("first test");
+	  
+  }
+  @Test
+  public void secondTest() {
+	  System.out.println("second test");
+	  
   }
   @BeforeMethod
   public void beforeMethod() {

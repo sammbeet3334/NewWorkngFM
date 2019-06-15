@@ -31,6 +31,7 @@ public class SC_Login_TC001 extends TestBase {
   @BeforeClass
   public void beforeClass() throws IOException {
 	  init();
+	  //browser issue fixed
   }
 
   @AfterClass

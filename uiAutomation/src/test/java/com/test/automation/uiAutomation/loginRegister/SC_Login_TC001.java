@@ -38,6 +38,12 @@ public class SC_Login_TC001 extends TestBase {
 	}
 
 	@Test
+	public void testSambeet()
+	{
+		//new tst added by sambeet
+	}
+	
+	@Test
 	public void secondTest() {
 		System.out.println("second test");
 

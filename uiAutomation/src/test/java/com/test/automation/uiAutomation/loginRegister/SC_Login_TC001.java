@@ -24,6 +24,10 @@ public class SC_Login_TC001 extends TestBase {
 		  System.out.println(a);
 	  }
 	  
+	  for(int b=0;b<10;b++) {
+		  System.out.println(b);
+	  }
+	  
   }
   @Test
   public void secondTest() {

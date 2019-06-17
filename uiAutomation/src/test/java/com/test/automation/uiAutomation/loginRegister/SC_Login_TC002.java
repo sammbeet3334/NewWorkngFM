@@ -39,6 +39,7 @@ public class SC_Login_TC002 extends TestBase {
 	@Test
 	public void newTestclass() {
 		//New test class1
+		//adding more commnets
 	}
 	
 	@Test

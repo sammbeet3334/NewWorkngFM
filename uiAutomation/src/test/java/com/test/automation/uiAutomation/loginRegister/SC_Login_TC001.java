@@ -21,8 +21,8 @@ public class SC_Login_TC001 extends TestBase {
   public void firstTest() {
 	  System.out.println("first test");
 	  
-	  for (int i = 0; i < 10; i++) {
-		  System.out.println(i);
+	  for (int k = 0; k < 10; k++) {
+		  System.out.println(k);
 		  // test comment 
 		
 	}

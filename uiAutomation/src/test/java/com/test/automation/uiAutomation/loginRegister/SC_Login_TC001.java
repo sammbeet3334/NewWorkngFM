@@ -44,6 +44,7 @@ public class SC_Login_TC001 extends TestBase {
 	@Test
 	public void newTestclass3() {
 		//New test class3
+		//added script for Rel1 second commit
 	}
 	
 	@Test

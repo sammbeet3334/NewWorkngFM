@@ -42,6 +42,11 @@ public class SC_Login_TC001 extends TestBase {
 	}
 	
 	@Test
+	public void newTestclass2() {
+		//New test class2
+	}
+	
+	@Test
 	public void testSambeet()
 	{
 		//new tst added by sambeet 

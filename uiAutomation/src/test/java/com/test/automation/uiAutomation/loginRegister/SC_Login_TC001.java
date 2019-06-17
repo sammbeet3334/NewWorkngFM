@@ -17,54 +17,64 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
 public class SC_Login_TC001 extends TestBase {
-  @Test
-  public void firstTest() {
-	  System.out.println("first test");
-	  
-	  for (int k = 0; k < 10; k++) {
-		  System.out.println(k);
-		  // test comment 
-		
+	@Test
+	public void firstTest() {
+		System.out.println("first test");
+		for (int a = 0; a < 10; a++) {
+			System.out.println(a);
+		}
+
+		for (int k = 0; k < 10; k++) {
+			System.out.println(k);
+
+			for (int b = 0; b < 10; b++) {
+				System.out.println(b);
+			}
+
+			// test comment
+
+		}
+
 	}
-	  
-  }
-  @Test
-  public void secondTest() {
-	  System.out.println("second test");
-	  
-  }
-  @BeforeMethod
-  public void beforeMethod() {
-  }
 
-  @AfterMethod
-  public void afterMethod() {
-  }
+	@Test
+	public void secondTest() {
+		System.out.println("second test");
 
-  @BeforeClass
-  public void beforeClass() throws IOException {
-	  init();
-	  //browser issue fixed
-  }
+	}
 
-  @AfterClass
-  public void afterClass() {
-  }
+	@BeforeMethod
+	public void beforeMethod() {
+	}
 
-  @BeforeTest
-  public void beforeTest() {
-  }
+	@AfterMethod
+	public void afterMethod() {
+	}
 
-  @AfterTest
-  public void afterTest() {
-  }
+	@BeforeClass
+	public void beforeClass() throws IOException {
+		init();
+		// browser issue fixed
+	}
 
-  @BeforeSuite
-  public void beforeSuite() {
-  }
+	@AfterClass
+	public void afterClass() {
+	}
 
-  @AfterSuite
-  public void afterSuite() {
-  }
+	@BeforeTest
+	public void beforeTest() {
+	}
+
+	@AfterTest
+	public void afterTest() {
+	}
+
+	@BeforeSuite
+	public void beforeSuite() {
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+	}
 
 }

@@ -31,7 +31,7 @@ public class SC_Login_TC002 extends TestBase {
 				System.out.println(b);
 			}
 
-			// test comment
+			// test comment 2
 
 		}
 

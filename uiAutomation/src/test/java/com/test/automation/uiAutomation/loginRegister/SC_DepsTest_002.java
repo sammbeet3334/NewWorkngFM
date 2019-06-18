@@ -17,7 +17,7 @@ public class SC_DepsTest_002 {
 	  System.out.println("Test deps 002 test 1");
 	  
   }
-  @Test
+  @Test(groups = "smoke")
   public void Deps004() {
 	  System.out.println("Test deps 002 test 2");
   }

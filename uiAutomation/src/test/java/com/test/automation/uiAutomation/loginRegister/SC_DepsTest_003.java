@@ -9,8 +9,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class SC_DepsTest_003 {
-  @Test
+  @Test(groups = "smoke")
   public void f() {
+	  System.out.println("executing smoke 2");
+  }
+  public void f2() {
+	  System.out.println("executing smoke 22222");
   }
   @BeforeMethod
   public void beforeMethod() {

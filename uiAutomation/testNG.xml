@@ -13,7 +13,8 @@
 <classes>
 <class name="com.test.automation.uiAutomation.loginRegister.SC_DepsTest_001"></class>
 <class name="com.test.automation.uiAutomation.loginRegister.SC_DepsTest_002"></class>
-</classes>
+<class name="com.test.automation.uiAutomation.loginRegister.SC_DepsTest_003"></class>
+</classes>	
 </test>
 
 

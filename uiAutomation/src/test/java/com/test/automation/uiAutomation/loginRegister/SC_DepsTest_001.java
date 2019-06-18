@@ -11,14 +11,14 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class SC_DepsTest_001 {
-	 @Test(groups = "pre-tests")
+	 @Test(groups = "smoke")
 	  public void Deps001() {
 		 System.out.println("Test deps 001 test 1");
-		 assertEquals(true, false);
+		 assertEquals(true, true);
 		 //
 	  }
 	 
-	 @Test(groups = "pre-tests2")
+	 @Test(groups = "regrssion")
 	  public void Deps002() {
 		 System.out.println("Test deps 001 test 2");
 		 assertEquals(true, true);

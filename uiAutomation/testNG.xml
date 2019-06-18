@@ -11,7 +11,8 @@
 
 <test name="LoginTest">
 <classes>
-<class name="com.test.automation.uiAutomation.loginRegister.SC_Login_TC001"></class>
+<class name="com.test.automation.uiAutomation.loginRegister.SC_DepsTest_001"></class>
+<class name="com.test.automation.uiAutomation.loginRegister.SC_DepsTest_002"></class>
 </classes>
 </test>
 

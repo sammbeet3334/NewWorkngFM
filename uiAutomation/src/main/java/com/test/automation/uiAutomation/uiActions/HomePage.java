@@ -126,7 +126,7 @@ public class HomePage extends TestBase{
 		log("clicked on craete and account and object is:-"+signUpLink.toString());
 		
 		Actions action = new Actions(driver);
-		action.contextClick().build().perform();
+		action.contextClick().build().perform(); 
 		
 		
 	 

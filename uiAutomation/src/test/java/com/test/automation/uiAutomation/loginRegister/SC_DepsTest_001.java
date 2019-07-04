@@ -25,9 +25,15 @@ public class SC_DepsTest_001 {
 		 
 	  }
 	 
-	 @Test
+	 @Test(groups= {"pre-tests","regression"},priority=1)
 	  public void Deps003() {
 		 System.out.println("Test deps 001 test 3");
+		 
+	  }
+	 
+	 @Test(groups= "sambeet")
+	  public void Deps004() {
+		 System.out.println("sambeet");
 		 
 	  }
 	  @BeforeMethod

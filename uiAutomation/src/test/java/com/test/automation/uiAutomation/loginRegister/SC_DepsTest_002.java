@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class SC_DepsTest_002 {
-  @Test(dependsOnGroups = {"pre-tests","pre-tests2"})
+  @Test(dependsOnGroups = {"pre-tests"})
   public void Deps003() {
 	  System.out.println("Test deps 002 test 1");
 	  

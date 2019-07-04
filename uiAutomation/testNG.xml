@@ -19,6 +19,15 @@
 
 
 
+<!-- <test name="LoginTest">
+<classes>
+<class name="com.test.automation.uiAutomation.loginRegister.NewTest"></class>
+<class name="com.test.automation.uiAutomation.loginRegister.NewTest2"></class>
+</classes>	
+</test> -->
+
+
+
 <!-- <test name="HomePageTest">
 <classes>
 <class name="com.test.automation.uiAutomation.homepage.TC002_VerifyRegistration"></class>
